@@ -1,8 +1,9 @@
-# 🤖 SQL RAG Chatbot
+# 🤖 SQL Database RAG-Based Response Bot  
+
 
 Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that lets you chat with your SQL databases through Telegram using natural language. Whether you're typing, sending voice messages, or even sharing images, this bot's got you covered! 
 
-![SQL RAG Architecture](https://github.com/AtharshKrishnamoorthy/SQL-RAG-Chatbot/blob/main/SQL%20RAG%20Architecture%20Final.png)
+![SQL RAG Architecture](https://github.com/chethanreddy555/SQL-Database-RAG-Based-Response-Bot/blob/main/SQL%20RAG%20Architecture.png)
 
 ## ✨ What's Cool About It?
 
@@ -68,7 +69,7 @@ The bot has two main parts:
 
 1. Grab the code:
 ```bash
-git clone https://github.com/AtharshKrishnamoorthy/SQL-RAG-Chatbot.git
+https://github.com/chethanreddy555/SQL-Database-RAG-Based-Response-Bot.git
 cd SQL-RAG-Chatbot
 ```
 
@@ -129,23 +130,12 @@ python bot.py
 ## 📁 What's Where
 
 ```
-SQL-RAG-Chatbot/
+SQL-Database-RAG-Based-Response-Bot/
 ├── bot.py              # Your Telegram buddy
 ├── conn.py            # Database connection magic
-├── pipeline1.py       # SQL query wizardry
+├── pipeline.py       # SQL query wizardry
 ├── rag.py             # RAG smarts
 ├── requirements.txt   # All the dependencies
 └── .env              # Your secret stuff
 ```
 
-## 🤝 Want to Help?
-
-1. Fork it!
-2. Create your branch: `git checkout -b feature/CoolNewThing`
-3. Commit your changes: `git commit -m 'Add some CoolNewThing'`
-4. Push it: `git push origin feature/CoolNewThing`
-5. Open a Pull Request! 🎉
-
----
-
-💡 **Pro Tip**: This bot works with ANY  database be it MYSQL , Postgress! Just update the connection URL in `conn.py`, and you're good to go. Chat with your data through Telegram, no matter what database you're using! 🚀
