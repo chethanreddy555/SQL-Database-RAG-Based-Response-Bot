@@ -1,7 +1,8 @@
 # 🤖 SQL Database RAG-Based Response Bot  
 
 
-Welcome to this awesome SQL RAG chatbot project! It's a super cool tool that lets you chat with your SQL databases through Telegram using natural language. Whether you're typing, sending voice messages, or even sharing images, this bot's got you covered! 
+A next-gen chatbot that lets you interact with your SQL databases in **natural language** via **Telegram**. Powered by **RAG architecture**, the bot supports text, voice, and even image queries — turning complex SQL interactions into a seamless chat experience.  
+
 
 ![SQL RAG Architecture](https://github.com/chethanreddy555/SQL-Database-RAG-Based-Response-Bot/blob/main/SQL%20RAG%20Architecture.png)
 
